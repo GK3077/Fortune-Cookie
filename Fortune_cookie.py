@@ -5,9 +5,9 @@ fortune_text = " "
 
 if fortune_number == 1:
   fortune_text = "You will have a great day ! "
-else if fortune_number == 2:
+elif fortune_number == 2:
   fortune_text = "Today will be tough... but worth it."
-else if fortune_number == 3:
+elif fortune_number == 3:
   fortune_text = "Your life will change this year."
 
 print (f "{fortune_text} Your lucky Number is: {lucky_number}")
